@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/inter/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner1 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner1 {
+  width: 1440px;
+  background: #0b2239;
+  padding: 18px 120px;
+  font-family: "Inter";
+}
+
+.baner1 .text {
+  width: 815px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.baner1 .cookie {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4ad295;
+  padding: 0 20px;
+}
+
+.baner1 .accept-button {
+  height: 36px;
+  padding: 0 10px;
+  color: #ffffff;
+  background-color: #4ad295;
+  justify-content: center;
+  font-family: "Inter";
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner2 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner2 {
+  width: 1440px;
+  height: 52px;
+  background-color: #2b2627;
+  margin-top: 15px;
+}
+
+.baner2 .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.baner2 .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+.baner2 .close-button {
+  width: 16px;
+  height: 16px;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner3 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner3 {
+  width: 560px;
+  background: #ffffff;
+  margin-top: 30px;
+  border-radius: 16px;
+  font-family: Inter;
+  padding: 16px;
+  gap: 10px;
+}
+
+.baner3 .icon {
+  width: 36px;
+  height: 36px;
+  background-color: #fdeef4;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.baner3 .text {
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.baner3 .text-link {
+  color: #ea4c89;
+}
+
+.baner3 .decline-button {
+  height: 28px;
+  color: #0d0c22;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: #f3f3f4;
+  border: 0;
+  padding: 0 10px;
+}
+
+.baner3 .allow-button {
+  height: 28px;
+  background-color: #ea4c89;
+  color: white;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 0;
+  padding: 0 10px;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner4 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner4 {
+  width: 560px;
+  height: 64px;
+  background-color: #26262b;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-family: Roboto;
+  margin-bottom: 72px;
+}
+
+.baner4 .text {
+  width: 469px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.baner4 .text-link {
+  color: #e6842e;
+}
+
+.baner4 .okay-button {
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 4px 10px;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner5 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner5 {
+  background-color: rgba(28, 37, 64, 0.95);
+  width: 360px;
+  border-radius: 6px;
+  margin-right: 40px;
+  padding: 24px;
+  font-family: Roboto;
+  font-size: 14px;
+  color: white;
+}
+
+.baner5 .text {
+  padding: 16px 0;
+  font-weight: normal;
+}
+
+.baner5 .buttons {
+  justify-content: space-between;
+}
+
+.baner5 .accept-button {
+  background-color: #09b3af;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner6 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner6 {
+  background-color: white;
+  width: 360px;
+  border-radius: 16px;
+  font-family: roboto;
+  font-weight: normal;
+  padding: 16px;
+}
+
+.baner6 .buttons {
+  gap: 8px;
+}
+
+.baner6 .text {
+  font-size: 14px;
+  color: #687f8c;
+  padding: 16px 0;
+}
+
+.baner6 .title-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.baner6 .manage-button {
+  background-color: #eaf0f4;
+  border-radius: 6px;
+  border: 0;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  font-family: roboto;
+  font-weight: 500;
+  color: #687f8c;
+}
+
+.baner6 .accept-button {
+  background-color: #40c1a7;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  border: 0;
+  padding: 8px;
+  width: 100%;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner7 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner7 {
+  background-color: white;
+  width: 320px;
+  border-radius: 20px;
+  padding: 32px;
+  font-family: Roboto;
+  margin-top: 72px;
+  margin-right: 40px;
+}
+
+.baner7 .title {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 900;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.baner7 .text {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.baner7 .accept-button {
+  font-size: 16px;
+  background-color: #4a7eff;
+  border-radius: 43px;
+  border: 0;
+  color: white;
+  padding: 10px 32px;
+  margin-top: 32px;
+  font-family: Roboto;
+}
+
+/* ---------------------------------------------------------------- */
+/* ------------------------------ Baner8 ------------------------- */
+/* ---------------------------------------------------------------- */
+
+.baner8 {
+  background-color: white;
+  width: 320px;
+  border-radius: 4px;
+  font-family: Roboto;
+  padding: 16px;
+  margin-top: 72px;
+}
+
+.baner8 .text {
+  width: 288px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.baner8 .buttons {
+  justify-content: space-between;
+}
+
+.baner8 .privacy-link {
+  color: #6666ff;
+  width: 95px;
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.baner8 .accept-button {
+  height: 33px;
+  background-color: #6666ff;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px;
+}
