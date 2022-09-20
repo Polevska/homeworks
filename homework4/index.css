@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato/Lato-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------------
+-----------------------------------------header------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------ */
+
+.header {
+  background-image: url(./images/Bg.png);
+  background-color: #cccccc;
+  width: 100%;
+}
+
+.header .column-left {
+  width: 50%;
+  font-family: Lato;
+  padding: 122px 8%;
+}
+
+.header .title {
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 42px;
+}
+
+.header .text {
+  color: white;
+  width: 445px;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+.header .platforms {
+  width: 125px;
+}
+
+.header .column-right {
+  width: 50%;
+  position: relative;
+}
+
+.header .video {
+  position: absolute;
+  width: 445px;
+  height: 311px;
+  right: 185px;
+  top: 80px;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.header .video1 {
+  position: absolute;
+  width: 383px;
+  height: 267px;
+  right: 315px;
+  top: 98px;
+}
+
+.header .video2 {
+  position: absolute;
+  width: 383px;
+  height: 267px;
+  right: 121px;
+  top: 98px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------
+-----------------------------------------contact-form------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------ */
+
+.contact-form {
+  width: 100%;
+  background-color: white;
+  font-family: Lato;
+}
+
+.contact-form .column-left {
+  width: 50%;
+  padding: 117px 8% 220px;
+}
+
+.contact-form .title {
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+
+.contact-form .text {
+  width: 434px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact-form .column-right {
+  width: 50%;
+  padding: 117px 165px;
+  gap: 24px;
+}
+
+.input {
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  height: 60px;
+  width: 100%;
+  font-family: Lato;
+  padding-left: 30px;
+}
+
+.first-name {
+  padding-right: 24px;
+  width: 100%;
+}
+
+.last-name {
+  width: 100%;
+}
+
+.submit-button {
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  color: white;
+  height: 50px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 17px 34px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------
+-----------------------------------------Footer------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------ */
+
+.footer {
+  width: 100%;
+  font-family: Lato;
+  background-color: #fafafa;
+  padding: 0px 8%;
+}
+
+.footer .section {
+  width: 100%;
+}
+
+.footer .title {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 85px 0 34px;
+}
+
+.footer .text {
+  font-size: 12px;
+  font-weight: 400;
+  width: 150px;
+}
+
+.footer .item {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 3px;
+}
+
+.footer .social-img {
+  padding-left: 6px;
+}
+
+.copyright {
+  padding: 80px 8%;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+select {
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  flex: 1;
+  padding: 0 30px;
+  color: black;
+  border: 1px solid #333333;
+  background-image: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 6px;
+  width: 100%;
+  font-family: Lato;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 5px;
+  padding: 20px;
+  pointer-events: none;
+  color: #6e6e6e;
+}
