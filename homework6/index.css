@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  padding: 0 12%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================================================== */
+
+.header {
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+  padding: 62px 0 143px;
+}
+
+.header .icon {
+  width: 10%;
+}
+
+.header .icon img {
+  width: 50px;
+}
+
+.header .navigation {
+  width: 70%;
+}
+
+.header .menu a {
+  text-decoration: none;
+  color: #4b5d68;
+  padding: 0 10px;
+}
+
+.header .button-container {
+  width: 20%;
+}
+
+.header .request-button {
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  height: 60px;
+  border: 0;
+  padding: 0 24px;
+  width: fit-content;
+}
+
+.header .request-button-text {
+  line-height: 25px;
+  display: inline-block;
+  vertical-align: bottom;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+/* ============================================================================== */
+
+.save-storage-block {
+  background-image: url(./images/image1\ 1.png);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.save-storage-block .title {
+  font-size: 80px;
+  color: #212353;
+  width: 54%;
+  padding-bottom: 50px;
+}
+
+.save-storage-block .text {
+  color: #4b5d68;
+  font-size: 18px;
+  width: 30%;
+  padding-bottom: 50px;
+}
+
+.save-storage-block .button-learn {
+  background: #9c69e2;
+  border-radius: 50px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  width: 170px;
+  cursor: pointer;
+}
+
+.save-storage-block .button-learn:hover {
+  border: 5px solid #c64bc0;
+}
+
+/* ============================================================================== */
+
+.content-block-wraper {
+  padding: 100px 0 0;
+}
+
+.content-block {
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.content-block .title {
+  color: #212353;
+  font-size: 40px;
+  padding: 125px 30px 40px;
+}
+
+.content-block .text {
+  color: #4b5d68;
+  font-size: 18px;
+  padding: 0 30px 30px;
+}
+
+/* ============================================================================== */
+
+.future-title {
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 150px 0 50px;
+}
+
+.future-subtitle {
+  font-size: 18px;
+  justify-content: center;
+  padding: 0 30%;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+/* ============================================================================== */
+
+.features {
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+}
+
+.feature {
+  width: 50%;
+}
+
+.feature .image-wraper {
+  padding-right: 30px;
+  width: 250px;
+}
+
+.feature .title {
+  color: #212353;
+  font-size: 24px;
+}
+
+.feature .description {
+  color: #4b5d68;
+  font-size: 16px;
+  padding: 20px 0;
+  padding: 20px 10% 20px 0;
+}
+
+.feature .learn-button {
+  font-size: 16px;
+  color: #212353;
+  padding-right: 20px;
+}
+
+.feature .learn-more img {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* ============================================================================== */
+
+.testimonials {
+  background-color: #9c69e2;
+  border-radius: 50px;
+  width: 100%;
+  padding: 8% 8% 0;
+}
+
+.testimonials .testimonials-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 0 90px 0;
+}
+
+.testimonials .photo-image {
+  padding-right: 38px;
+}
+
+.testimonials .blog-white {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  padding: 60px 10%;
+}
+
+.testimonials .text-blog {
+  padding-top: 24px;
+}
+
+.testimonials .john-fang {
+  color: #212353;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.testimonials .website {
+  color: #9c69e2;
+  font-size: 14px;
+  padding-bottom: 19px;
+}
+
+.testimonials .text {
+  color: #4b5d68;
+  font-size: 18px;
+  width: 76%;
+}
+
+.testimonials .elements {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0;
+}
+
+.testimonials .dots {
+  height: 10px;
+}
+
+.testimonials .arrows {
+  display: flex;
+  width: 86px;
+  justify-content: space-between;
+}
+/* ============================================================================== */
+
+.footer {
+  padding: 100px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .title {
+  color: #212353;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.footer .text {
+  color: #4b5d68;
+  font-size: 18px;
+}
+
+.footer .button-learn {
+  background: #f063b8;
+  border-radius: 50px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  padding: 0 24px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.footer .request-button {
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgb(75 93 104 / 10%);
+  border-radius: 50px;
+  height: 60px;
+  border: 0;
+  padding: 0 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer .request-button img {
+  height: 11px;
+}
+
+.datawarehouse {
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.datawarehouse .warehouse {
+  padding-bottom: 67px;
+}
+
+.datawarehouse .datawarehouse-bold {
+  color: #212353;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  align-self: center;
+}
+
+.datawarehouse .warehouse-adress {
+  color: #212353;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.datawarehouse .warehouse-web {
+  color: #212353;
+  font-size: 16px;
+  padding-bottom: 45px;
+}
+
+.menu-item {
+  padding: 5px 0;
+}
+
+.menu-item-title {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+.about {
+  color: #212353;
+  font-size: 16px;
+}
+
+.social-media {
+  color: #212353;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+  padding-top: 12px;
+}
+
+.social-media-icons {
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 0 7px;
+}
+
+.text-end {
+  font-size: 12px;
+  color: #212353;
+  width: 22%;
+}
+
+.footer-end {
+  justify-content: space-between;
+  align-items: center;
+}
