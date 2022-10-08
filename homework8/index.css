@@ -15,7 +15,7 @@
   border: 2px solid;
 }
 
-.block:nth-child(4n) {
+.block:nth-child(4n + 3) {
   background: red;
 }
 
@@ -23,7 +23,7 @@
   background: blue;
 }
 
-.block:nth-child(24) {
+.block:nth-child(23) {
   background: red;
 }
 
