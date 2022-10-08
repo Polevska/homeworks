@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  width: 240px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.block {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  margin: 5px;
+  border: 2px solid;
+}
+
+.block:nth-child(4n) {
+  background: red;
+}
+
+.block:nth-last-child(-n + 4) {
+  background: blue;
+}
+
+.block:nth-child(24) {
+  background: red;
+}
+
+.button {
+  border: 0;
+  background-color: #6bcca8;
+  color: white;
+  font-weight: bold;
+  padding: 20px 60px;
+  border-radius: 40px;
+  display: block;
+  margin: 60px auto;
+  position: relative;
+}
+
+.button::before {
+  content: "";
+  width: 60px;
+  height: 10px;
+  display: inline-block;
+  border: 2px solid gray;
+  border-right: 0;
+  border-left: 0;
+  position: absolute;
+  left: -80px;
+  top: 24px;
+}
+
+.button::after {
+  content: "";
+  width: 60px;
+  height: 10px;
+  display: inline-block;
+  border: 2px solid gray;
+  border-right: 0;
+  border-left: 0;
+  position: absolute;
+  right: -80px;
+  top: 24px;
+}
