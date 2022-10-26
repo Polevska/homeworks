@@ -1,0 +1,112 @@
+.container {
+  font-family: "Lato";
+}
+
+.body-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.share-btn {
+  position: relative;
+}
+
+.message-count {
+  position: absolute;
+  font-size: 12px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #dc565b;
+  color: white;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.main-ava {
+  border-radius: 50%;
+  height: 180px;
+  width: 170px;
+}
+
+.name-style {
+  color: #262626;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.number-users {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.name-row {
+  color: #262626;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.text-row {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 400;
+  max-width: 82%;
+}
+
+.link-row {
+  color: #133768;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.user-item {
+  text-align: center;
+}
+
+.posts {
+  border-top: 1px solid #dbdbdb;
+}
+
+.post {
+  color: #262626;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.post-style {
+  border-top: 1px solid;
+  margin-top: -1px;
+  padding-top: 10px;
+}
+
+.tagged {
+  color: #8f8f8f;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 5px;
+}
+
+.tagged-style {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.rectangle {
+  margin: auto;
+}
+
+.wrapper {
+  max-width: 950px;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+}
