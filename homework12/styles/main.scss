@@ -1,0 +1,464 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  cursor: pointer;
+
+  &:hover {
+    background-color: #6f7cb2 !important;
+  }
+}
+
+@mixin font-500 {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+@mixin font-400 {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.content-purchase {
+  background: #111b47;
+  border-radius: 2px;
+  height: 32px;
+  color: white;
+  font-size: 14px;
+  padding: 5px 40px;
+  @include font-500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .introduce {
+    width: 100%;
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    height: 950px;
+    padding: 0 12%;
+
+    .header {
+      justify-content: space-between;
+      padding: 12px 0 250px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .header-menu {
+      justify-content: center;
+    }
+
+    .header-menu-wraper {
+      display: flex;
+    }
+
+    .header-menu-list {
+      font-size: 14px;
+      color: #505f98;
+      padding: 0 14px;
+      @include font-400;
+    }
+
+    .header-title {
+      font-family: "Roboto";
+      font-weight: 900;
+      font-size: 26px;
+      color: #37447e;
+    }
+
+    @media screen and (max-width: 768px) {
+      .header-title {
+        padding: 10px;
+      }
+    }
+
+    .header-btn {
+      background: #111b47;
+      border-radius: 2px;
+      height: 26px;
+      color: white;
+      font-size: 12px;
+      padding: 4px 40px;
+      @include font-500;
+    }
+
+    .introduce-title {
+      font-size: 50px;
+      color: #091133;
+      width: 50%;
+      line-height: 66px;
+      @include font-500;
+    }
+
+    @media screen and (max-width: 768px) {
+      .introduce-title {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .introduce-text {
+      font-size: 18px;
+      color: #505f98;
+      width: 48%;
+      line-height: 30px;
+      padding: 20px 0 70px;
+      @include font-400;
+    }
+    @media screen and (max-width: 768px) {
+      .introduce-text {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .introduce-text-paragraph {
+      padding-bottom: 10px;
+    }
+
+    .introduce-btn {
+      margin-right: 15px;
+      background: #111b47;
+      border-radius: 2px;
+      height: 36px;
+      color: white;
+      font-size: 16px;
+      padding: 5px 40px;
+      @include font-500;
+    }
+
+    .introduce-learn-btn {
+      background: #e7ecff;
+      height: 36px;
+      border-radius: 2px;
+      border: 1px solid #091133;
+      font-size: 16px;
+      color: #091133;
+      padding: 5px 40px;
+      @include font-500;
+    }
+    @media screen and (max-width: 768px) {
+      .introduce-actions {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .introduce {
+      background-size: 323px;
+    }
+  }
+
+  .main-text {
+    width: 100%;
+    padding: 100px 12% 0;
+
+    .main-text-title {
+      font-size: 36px;
+      line-height: 48px;
+      color: #091133;
+      @include font-500;
+    }
+
+    @media screen and (max-width: 768px) {
+      .main-text-title {
+        justify-content: center;
+        width: 100%;
+      }
+    }
+
+    .main-text-content {
+      font-size: 16px;
+      line-height: 26px;
+      color: #6f7cb2;
+      width: 90%;
+      padding: 20px 0 80px;
+      @include font-400;
+    }
+
+    @media screen and (max-width: 768px) {
+      .main-text-content {
+        justify-content: center;
+        width: 100%;
+      }
+    }
+
+    .introduce-text-paragraph {
+      padding-bottom: 10px;
+    }
+
+    .main-text-info {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 768px) {
+      .main-text-info {
+        width: 100%;
+      }
+    }
+
+    .icon-img {
+      height: 36px;
+      width: 36px;
+    }
+
+    .main-text-subtitle {
+      font-size: 16px;
+      line-height: 26px;
+      color: #091133;
+      @include font-500;
+      padding: 14px 0 6px;
+    }
+
+    .main-text-subcontent {
+      font-size: 12px;
+      line-height: 18px;
+      color: #5d6970;
+      width: 80%;
+
+      @include font-400;
+    }
+
+    .main-text-bg {
+      width: 50%;
+      background-image: url(../img/main-text-bg.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    @media screen and (max-width: 768px) {
+      .main-text-bg {
+        height: 500px;
+        width: 100%;
+        background-position: center;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .goes-item {
+        align-items: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .main-text {
+      flex-direction: column;
+      padding: 10px 8%;
+      text-align: center;
+    }
+  }
+
+  .content-section {
+    padding: 160px 12% 0;
+
+    .img-section {
+      width: 100%;
+      padding-right: 5%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .img-section {
+        margin-left: 10%;
+      }
+    }
+
+    .info-section {
+      padding: 40px 0 0 5%;
+      width: 100%;
+    }
+
+    .content-section-title {
+      font-size: 36px;
+      line-height: 48px;
+      color: #091133;
+      padding-bottom: 16px;
+      @include font-500;
+    }
+
+    @media screen and (max-width: 768px) {
+      .content-section-title {
+        justify-content: center;
+      }
+    }
+
+    .content-section-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: #6f7cb2;
+      padding-bottom: 40px;
+      @include font-400;
+    }
+
+    .introduce-text-paragraph {
+      padding-bottom: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .content-purchase-btn {
+        justify-content: center;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .content-section {
+      flex-direction: column;
+      padding: 100px 5% 0;
+    }
+  }
+
+  .price-section {
+    background-image: url(../img/price-section-bg.png);
+    padding-top: 230px;
+    text-align: center;
+    padding-bottom: 170px;
+
+    .price-section-title {
+      font-size: 36px;
+      line-height: 48px;
+      color: #091133;
+      @include font-500;
+    }
+
+    .price-section-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: #6f7cb2;
+      padding: 16px 25% 35px;
+      @include font-400;
+    }
+
+    .price {
+      font-size: 50px;
+      line-height: 66px;
+      color: #222f65;
+      @include font-500;
+    }
+
+    .price-description {
+      font-size: 16px;
+      line-height: 26px;
+      color: #37447e;
+      padding: 10px 0 60px;
+      @include font-400;
+    }
+
+    .price-notification {
+      font-size: 14px;
+      line-height: 24px;
+      color: #5d6970;
+      padding-bottom: 10px;
+      @include font-400;
+    }
+  }
+
+  .footer {
+    background-color: #e7ecff;
+    padding: 60px 10% 0;
+
+    .footer-main {
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 40px;
+    }
+
+    .footer-label {
+      font-size: 14px;
+      line-height: 24px;
+      color: #939ea4;
+      @include font-500;
+    }
+
+    .footer-title {
+      font-family: "Roboto";
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 38px;
+      color: #37447e;
+    }
+
+    .footer-purchase-btn {
+      font-size: 12px;
+      line-height: 18px;
+      color: #ffffff;
+      background: #111b47;
+      border-radius: 2px;
+      @include font-500;
+    }
+
+    .footer-menu-wrapper {
+      display: flex;
+      width: 50%;
+    }
+
+    .footer-menu {
+      font-size: 14px;
+      line-height: 24px;
+      padding: 0 20px;
+      color: #929ecc;
+      @include font-400;
+    }
+
+    .footer-icons-menu {
+      width: 50%;
+    }
+
+    .footer-icons {
+      padding-top: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .footer-icons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .footer-social-icons {
+      width: 50%;
+      align-items: end;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      .footer-social-icons {
+        width: 100%;
+        align-items: center;
+        padding: 20px 0;
+      }
+    }
+
+    .footer-social-icons-wraper {
+      display: flex;
+      justify-content: space-between;
+      width: 180px;
+    }
+    .social-icons {
+      height: 12px;
+      width: 12px;
+    }
+  }
+}
